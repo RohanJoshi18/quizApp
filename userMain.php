@@ -16,17 +16,12 @@ include "header.php";
 <body>
     <?php $current_time = time(); echo $current_time; ?>
     <div class="navbar">
-        <div class="add-quiz">
-            <!-- adding a quiz to the database -->
-            <!-- display all quizzes -->
+        <div class="take-quiz">
+            <!-- shows available quizzes -->
+            <!-- take quiz if available -->
         </div>
-        <div class="remove-quiz">
-            <!-- deleting a quiz from the database -->
-            <!-- display all quizzes -->
-        </div>
-        <div class="update-quiz">
-            <!-- changing the contents of the quiz -->
-            <!-- display all quizzes -->
+        <div class="score-history">
+            <!-- display past scores for the user in a timeline -->
         </div>
     </div>
 </body>

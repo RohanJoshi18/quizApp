@@ -1,5 +1,6 @@
 function addQuiz() {
-    
+    // create new quiz
+    // store quiz in database
 }
 
 function removeQuiz() {

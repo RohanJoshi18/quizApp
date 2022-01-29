@@ -14,14 +14,14 @@ include "header.php";
 </head>
 
 <body>
-    <?php $current_time = time(); echo $current_time; ?>
+    <?php $current_time = time(); echo $current_time;?>
     <div class="navbar">
         <div class="take-quiz">
             <!-- shows available quizzes -->
             <!-- take quiz if available -->
         </div>
         <div class="score-history">
-            <!-- display past scores for the user in a timeline -->
+            <!-- display a timeline of user score history -->
         </div>
     </div>
 </body>

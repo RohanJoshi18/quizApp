@@ -1,5 +1,5 @@
 function addQuiz() {
-    document.getElementById("main-section").innerHTML = <h1>This is the changed text</h1>;
+    document.getElementById("demo").innerHTML = <h1>This is the changed text.</h1>
 }
 
 function removeQuiz() {

@@ -1,6 +1,5 @@
 function addQuiz() {
-    // create new quiz
-    // store quiz in database
+    document.getElementById("main-section").innerHTML = <h1>This is the changed text</h1>;
 }
 
 function removeQuiz() {

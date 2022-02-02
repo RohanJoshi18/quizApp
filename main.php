@@ -8,13 +8,13 @@ include "header.php";
 <head>
     <title>PHP Quiz Application</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="User can take a quiz on this page">
+    <meta name="description" content="Only staff can access this page">
     <meta charset="utf-8">
     <script src="myScript.js"></script>
 </head>
 
 <body>
-    <?php $current_time = time(); echo $current_time; ?>
+    <?php $current_time = time(); echo $current_time;?>
     <div class="navbar">
         <div class="add-quiz">
             <button onclick="addQuiz()">Add quiz</button>
@@ -25,6 +25,11 @@ include "header.php";
         <div class="modify-quiz">
             <button onclick="modifyQuiz()">Modify quiz</button>
         </div>
+    </div>
+    <div class="main-section">
+        <h1>Content changes</h1>
+        <p>This section acts as a placeholder for changing 
+            div content through JavaScript.</p>
     </div>
 </body>
 

@@ -1,5 +1,10 @@
 function addQuiz() {
-    document.getElementById("demo").innerHTML = <h1>This is the changed text.</h1>
+    var createClicked = document.getElementById("create-quiz").clicked;
+    while (createClicked == false) {
+        if (document.getElementById("add-option").clicked == true) {
+            addOption();
+        }
+    }
 }
 
 function removeQuiz() {

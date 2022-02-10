@@ -22,7 +22,18 @@ include "header.php";
         </div>
         <div class="score-history">
             <!-- display a timeline of user score history -->
+            <!-- try using React / Angular to do this -->
         </div>
+    </div>
+    <div class="main-section">
+        <h1>Welcome to TakeQuiz!!</h1>
+        <p>Here, you can attempt a quiz and view your score   
+            history in the timeline panel.
+        </p>
+        <p>You can take any quiz as many times as you 
+            want, and also compare your score with other players 
+            in the <a href="leaderboard.php">Leaderboard</a> section.
+        </p>
     </div>
 </body>
 

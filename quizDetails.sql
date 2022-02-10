@@ -10,6 +10,7 @@ DROP TABLE IF EXISTS question;
 DROP TABLE IF EXISTS selected_answer;
 DROP TABLE IF EXISTS correct_answer;
 
+-- SQL create table statements
 
 CREATE TABLE IF NOT EXISTS userDetails {
     id BIGINT NOT NULL UNIQUE 0-65536,
@@ -47,3 +48,5 @@ CREATE TABLE IF NOT EXISTS correct_answer {
     PRIMARY KEY (answer_id),
     FOREIGN KEY (question_id) REFERENCES question(question_id)
 };
+
+-- SQL queries for database

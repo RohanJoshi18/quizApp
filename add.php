@@ -26,9 +26,23 @@ include "header.php";
             <a href="modify.php"><button>Modify Quiz</button></a>
         </div>
     </div>
-    <div class="main-section">
-        <h1>Content changes</h1>
-        <p></p>
+    <div class="add-content">
+        <div class="question">
+            <!-- question text box goes here -->
+        </div>
+        <div class="answer1">
+            <!-- first answer goes here -->
+        </div>
+        <!-- subsequent answer fields are added as the "Add option button is pressed" -->
+        <!-- Relevant CSS and JS is added here -->
+        <div class="add-option">
+            <!-- Add option button goes here -->
+        </div>
+        <div class="add-question">
+            <!-- Add question button goes here -->
+        </div>
+        <!-- subsequent question fields are added as the "Add question button is pressed" -->
+        <!-- Relevant CSS and JS is added here -->
     </div>
 </body>
 

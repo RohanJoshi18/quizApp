@@ -17,7 +17,7 @@ include "header.php";
     <?php $current_time = time(); echo $current_time;?>
     <div class="navbar">
         <div class="add-quiz">
-            <a href="add.php"><button>Add Quiz</button></a>
+            <a href="add.php"><button>Add quiz</button></a>
         </div>
         <div class="remove-quiz">
             <a href="remove.php"><button>Remove Quiz</button></a>
@@ -27,8 +27,11 @@ include "header.php";
         </div>
     </div>
     <div class="main-section">
-        <h1>Content changes</h1>
-        <p></p>
+        <h1>Welcome, Staff Member!!</h1>
+        <p>Here, you can add, update or delete quizzes which are 
+            taken by the students in the department.
+        </p>
+        <p>Head over to the menu links to get started.</p>
     </div>
 </body>
 

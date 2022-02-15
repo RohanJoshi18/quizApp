@@ -28,21 +28,17 @@ include "header.php";
     </div>
     <div class="add-content">
         <div class="question">
-            <!-- question text box goes here -->
-        </div>
-        <div class="answer1">
-            <!-- first answer goes here -->
-        </div>
-        <!-- subsequent answer fields are added as the "Add option button is pressed" -->
-        <!-- Relevant CSS and JS is added here -->
-        <div class="add-option">
-            <!-- Add option button goes here -->
-        </div>
-        <div class="add-question">
-            <!-- Add question button goes here -->
-        </div>
-        <!-- subsequent question fields are added as the "Add question button is pressed" -->
-        <!-- Relevant CSS and JS is added here -->
+            <form action="" method="post">
+                <label for="qname" placeholder="Enter question here">Question 1</label>
+                <input type="text" id="qname" name="qname"><br><br>
+                <label for="aname" placeholder="Enter option text">Option 1:</label>
+                <button onclick="addOption()">Add option</button>
+                <input type="text" id="aname" name="aname"><br><br>
+                <button onclick="addQuestion()">New question</button>
+                <button onclick="deleteQuestion()">Delete question</button>
+                <input type="submit" value="Submit">
+            </form>
+        </div>        
     </div>
 </body>
 

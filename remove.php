@@ -27,8 +27,7 @@ include "header.php";
         </div>
     </div>
     <div class="main-section">
-        <h1>Content changes</h1>
-        <p></p>
+        
     </div>
 </body>
 

@@ -7,6 +7,10 @@ function addQuiz() {
     }
 }
 
+function deleteQuestion() {
+    
+}
+
 function removeQuiz() {
     // remove selected quiz
     // delete from database
@@ -18,8 +22,8 @@ function addQuestion() {
 }
 
 function addOption() {
-    // check if option exists
-    // if not, add new one
+    var newLabel = document.createElement("label");
+    newLabel.setAttribute("for", id_from_input)
 }
 
 function changeOption() {

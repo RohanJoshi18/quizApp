@@ -30,15 +30,17 @@ include "header.php";
         <div class="question">
             <form action="" method="post">
                 <label for="qname" placeholder="Enter question here">Question 1</label>
-                <input type="text" id="qname" name="qname"><br><br>
-                <label for="aname" placeholder="Enter option text">Option 1:</label>
-                <button onclick="addOption()">Add option</button>
-                <input type="text" id="aname" name="aname"><br><br>
-                <button onclick="addQuestion()">New question</button>
-                <button onclick="deleteQuestion()">Delete question</button>
+                <input type="text" id="qname" name="qname"><br>
+                <div class="answer">
+                    <label for="aname" placeholder="Enter option text">Option 1:</label>
+                    <input type="text" id="aname" name="aname"><br>
+                    <button onclick="addOption()">Add option</button>
+                </div>
+                <button onclick="addQuestion()">Add question</button>
                 <input type="submit" value="Submit">
             </form>
         </div>        
+        <button onclick="deleteQuestion()">Delete question</button>
     </div>
 </body>
 
